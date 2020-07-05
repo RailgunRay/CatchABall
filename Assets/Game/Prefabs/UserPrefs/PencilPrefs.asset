@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05f6f4ef55420e45be74872b6474fe2, type: 3}
+  m_Name: PencilPrefs
+  m_EditorClassIdentifier: 
+  goldenBallSprite: {fileID: 21300008, guid: 6a97992ba1074934d8a9efdfbb1e9935, type: 3}
+  negativeEffectHighlight: {fileID: 21300000, guid: 9c546b0e8b8aac242a67ac891532657b,
+    type: 3}
+  positiveEffectSprite: {fileID: 21300002, guid: 9c546b0e8b8aac242a67ac891532657b,
+    type: 3}
+  styleSprites:
+  - color: 0
+    ballSprite: {fileID: 21300000, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300014, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300030, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: f06d9d185bd1e314b8e81aa51c450ee9, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: 69fff5b2423225942a8bee848a74c643,
+      type: 2}
+  - color: 1
+    ballSprite: {fileID: 21300002, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300016, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300032, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: beeb00a9462851346b6bd2831022956f, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: c925ed2d1982ab742b24d573824d92f6,
+      type: 2}
+  - color: 2
+    ballSprite: {fileID: 21300004, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300018, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300034, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: bdea95922d36bfa47b9f9354618dabb3, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: b402c7982d062cc4d8dc336fa5b0c7af,
+      type: 2}
+  - color: 3
+    ballSprite: {fileID: 21300006, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300020, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300036, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: a50c7d88fe4256142a93b5a7dd7c0eb4, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: fcee89d5201941247a76490f677fdedd,
+      type: 2}
+  - color: 4
+    ballSprite: {fileID: 21300008, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300022, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300038, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: 4ebceb64e308d754ebdf344483ad0fe1, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: 4d2a656d64f111d45a1cd13d653ec0fc,
+      type: 2}
+  - color: 5
+    ballSprite: {fileID: 21300010, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300024, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300040, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: e21989ee79313294482e8be94f5c115f, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: 8b997d5a4f7eb694d85584c09b21b870,
+      type: 2}
+  - color: 6
+    ballSprite: {fileID: 21300012, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    bucketSprite: {fileID: 21300026, guid: f6ec5c6f702a947428202ce3cea8a5ef, type: 3}
+    notificationSprite: {fileID: 21300042, guid: f6ec5c6f702a947428202ce3cea8a5ef,
+      type: 3}
+    trailMaterial: {fileID: 2100000, guid: d8b5df414ff996b4796dc239c1946415, type: 2}
+    deathParticleMaterial: {fileID: 2100000, guid: aa45e5922bcbdc74f9902a6ec2c116c7,
+      type: 2}
+  effectSprites:
+  - {fileID: 21300000, guid: 192c3271c4118a54194dabe94160072a, type: 3}
+  - {fileID: 21300002, guid: 192c3271c4118a54194dabe94160072a, type: 3}
+  - {fileID: 21300004, guid: 192c3271c4118a54194dabe94160072a, type: 3}
+  - {fileID: 21300006, guid: 192c3271c4118a54194dabe94160072a, type: 3}
+  backgroundMaterial: {fileID: 2100000, guid: caa682116da04084ca7f6397f1f253da, type: 2}
